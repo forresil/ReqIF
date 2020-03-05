@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<configuration:ProrToolExtension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0" xmlns:id="http://pror.org/presentation/id" xmlns:reqif="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd">
+  <specViewConfigurations>
+    <specification href="XXX_Requirements.reqif#_rtE4i13xEeqPbNIZ8yClhA"/>
+    <columns label="ReqIF.Name" width="199"/>
+    <columns xsi:type="configuration:UnifiedColumn" label="Main" width="375"/>
+    <columns label="IE PUID" width="98"/>
+    <columns label="ReqIF.ForeignID" width="78"/>
+    <leftHeaderColumn label="Lead Header Column" width="30"/>
+  </specViewConfigurations>
+  <specViewConfigurations>
+    <specification href="XXX_Requirements.reqif#_w5hekF72Eeq62Lvx19rL5A"/>
+    <columns label="ReqIF.Name" width="100"/>
+    <columns xsi:type="configuration:UnifiedColumn" label="Main" width="287"/>
+    <columns label="IE PUID" width="115"/>
+    <columns label="ReqIF.ForeignID" width="50"/>
+    <leftHeaderColumn label="Lead Header Column" width="30"/>
+  </specViewConfigurations>
+  <generalConfiguration>
+    <labelConfiguration>
+      <defaultLabel>ReqIF.Description</defaultLabel>
+      <defaultLabel>ReqIF.ForeignID</defaultLabel>
+    </labelConfiguration>
+  </generalConfiguration>
+  <presentationConfigurations>
+    <presentationConfigurations xsi:type="id:IdConfiguration" prefix="" count="23">
+      <datatype xsi:type="reqif:DatatypeDefinitionString" href="XXX_Requirements.reqif#_rtE4dF3xEeqPbNIZ8yClhA"/>
+    </presentationConfigurations>
+    <presentationConfigurations xsi:type="id:IdConfiguration" prefix="LNK-" count="1">
+      <datatype xsi:type="reqif:DatatypeDefinitionString" href="XXX_Requirements.reqif#_rtE4eV3xEeqPbNIZ8yClhA"/>
+    </presentationConfigurations>
+    <presentationConfigurations xsi:type="id:IdConfiguration" prefix="" count="22">
+      <datatype xsi:type="reqif:DatatypeDefinitionString" href="XXX_Requirements.reqif#_gkuNcF7BEeqwdfBdy7Onnw"/>
+    </presentationConfigurations>
+    <presentationConfigurations xsi:type="id:IdConfiguration" prefix="TRT-REQ-" count="1">
+      <datatype xsi:type="reqif:DatatypeDefinitionString" href="XXX_Requirements.reqif#_jFC4gF7qEeq62Lvx19rL5A"/>
+    </presentationConfigurations>
+  </presentationConfigurations>
+</configuration:ProrToolExtension>
